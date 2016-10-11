@@ -1,19 +1,42 @@
-# TodoMVC App Template
+# TodoMvc
 
-> Template used for creating [TodoMVC](http://todomvc.com) apps
+使用 AngularJS 完成 TodoMVC 案例。
 
-![](https://github.com/tastejs/todomvc-app-css/raw/master/screenshot.png)
+http://todomvc.com/
 
+## 需求分析
 
-## Getting started
+## 结构搭建
 
-- Read the [Application Specification](https://github.com/tastejs/todomvc/blob/master/app-spec.md) before touching the template.
+模板地址：https://github.com/tastejs/todomvc-app-template
 
-- Delete this file and rename `app-readme.md` to `readme.md` and fill it out.
+- 项目文件结构整理
+- 初始化模块和控制器
 
-- Clone this repo and install the dependencies with [npm](https://npmjs.com) by running: `npm install`.
+## 功能开发
 
+- 根据页面抽象数据模型
+- 列表渲染
+  + ng-repeat
+- 任务完成状态切换
+  + ng-class
+- 添加任务
+- 删除任务
+- 显示未完成任务数量
+- 点击清除所有已完成任务
+- 点击显示所有任务
+- 点击显示未完成任务
+- 点击显示已完成任务
+- 全选切换所有任务的完成状态
+- 编辑任务
 
-## License
+## ng调试
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" rel="dct:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://sindresorhus.com" property="cc:attributionName" rel="cc:attributionURL">TasteJS</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US">Creative Commons Attribution 4.0 International License</a>.
+SimpleExtManager Chrome 用来管理插件的插件
+
+- 给 window 暴露 $scope
+- 使用 Chrome 插件 Angular Batarang
+  + 通过 Chrome 应用程序商店搜索该插件名称，然后安装
+  + 以http协议访问你的要调试的项目
+  + 调试之前要记得启用该插件
+  + 打开控制台
